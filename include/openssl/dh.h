@@ -89,7 +89,7 @@ int EVP_PKEY_CTX_get0_dh_kdf_ukm(EVP_PKEY_CTX *ctx, unsigned char **ukm);
 #  include <openssl/dherr.h>
 
 #  ifndef OPENSSL_DH_MAX_MODULUS_BITS
-#   define OPENSSL_DH_MAX_MODULUS_BITS    10000
+#   define OPENSSL_DH_MAX_MODULUS_BITS    16385
 #  endif
 
 #  define OPENSSL_DH_FIPS_MIN_MODULUS_BITS 1024
